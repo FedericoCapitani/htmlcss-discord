@@ -31,7 +31,7 @@
 
 .col1{
     height: 100%;
-    width: 60%;
+    width: 50%;
     float: left;
 }
 
@@ -140,7 +140,7 @@ li > a{
 
 div.col1 > img{
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -151,5 +151,32 @@ div.col2 > h2{
 div.col2 > p {
     margin-top: 30px;
     font-size: 1.2rem;
+}
+#centre_title{
+    font-size: 4rem;
+    text-align: center;
+}
+#centre_text{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+.big_item{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#button_title{
+    position: relative;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 40%;
+    height: 3rem;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("../img/stars.svg");
+    background-position: center;
 }
 /* footer */
