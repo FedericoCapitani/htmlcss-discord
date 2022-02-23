@@ -206,7 +206,6 @@ div.col2 > p {
 }
 .footer_columns{
     margin: 0px 10%;
-    height: 70vh;
 }
 .col_foot1{
     margin-top: 20px;
@@ -224,7 +223,7 @@ div.col2 > p {
 }
 .col_foot2{
     margin-top: 20px;
-    width: 20%;
+    width:20%;
     float: left;
 }
 .blue{
@@ -235,4 +234,28 @@ div.col_foot2  a {
     color: white;
     display: block;
     margin-top: 10px;
+}
+.footer_columns::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.banner_footer{
+    margin: 0px 10%;
+    border-top: 2px solid #7289da;
+    padding-bottom: 20px;
+}
+.banner_footer > img{
+    margin-top: 40px;
+    height: 50px;
+    padding-bottom: 20px;
+}
+#registrazione{
+    background-color: #7289da;
+    padding: 20px;
+    color: white;
+    float: right;
+    border-radius: 2rem;
+    border: none;
+    margin-top: 40px;
 }
