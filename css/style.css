@@ -3,3 +3,61 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+/* utility */
+
+.p_relative{
+    position: relative;
+}
+
+.container{
+    width: 80%;
+    margin: 0 10%;
+    height: 100vh;
+    background-color: yellow;
+}
+
+.color_white{
+    color: white;
+}
+/* header */
+
+.site_header{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.navbar{
+    width: 80%;
+    height: 100px;
+    background-color: springgreen;
+    margin: 0 10%;
+}
+
+.header_text{
+    background-color: blue;
+    width: 60%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#h_title{
+    text-align: center;
+    font-size: 4rem;
+    line-height: 12rem;
+}
+.h_text{
+    text-align: center;
+    margin: 0 20%;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+/* main */
+
+/* footer */
