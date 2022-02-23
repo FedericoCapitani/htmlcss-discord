@@ -13,24 +13,31 @@
     position: relative;
 }
 
+.marginL{
+    margin-left: 10%;
+}
+.marginR{
+    margin-right: 10%;
+}
+/* .bg_wave{
+    background-image: url("../img/wave.svg");
+} */
+
 .container{
-    width: 80%;
+    width: 70%;
     margin: 5% 10%;
-    height: 100vh;
-    background-color: yellow;
+    height: 70vh;
 }
 
 .col1{
     height: 100%;
     width: 60%;
-    background-color: brown;
     float: left;
 }
 
 .col2{
     height: 100%;
-    width: 40%;
-    background-color: blueviolet;
+    width: 30%;
     float: left;
 }
 
@@ -94,7 +101,7 @@ li > a{
 }
 #h_title{
     text-align: center;
-    font-size: 4rem;
+    font-size: 5rem;
     line-height: 10rem;
 }
 .h_text{
@@ -131,4 +138,18 @@ li > a{
 }
 /* main */
 
+div.col1 > img{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.col2 > h2{
+    font-size: 4rem;
+}
+div.col2 > p {
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
 /* footer */
