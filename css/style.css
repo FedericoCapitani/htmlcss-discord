@@ -15,9 +15,23 @@
 
 .container{
     width: 80%;
-    margin: 0 10%;
+    margin: 5% 10%;
     height: 100vh;
     background-color: yellow;
+}
+
+.col1{
+    height: 100%;
+    width: 60%;
+    background-color: brown;
+    float: left;
+}
+
+.col2{
+    height: 100%;
+    width: 40%;
+    background-color: blueviolet;
+    float: left;
 }
 
 .color_white{
@@ -27,20 +41,51 @@
 
 .site_header{
     width: 100vw;
-    height: 100vh;
-    background-color: aqua;
+    height: 70vh;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .navbar{
     width: 80%;
     height: 100px;
-    background-color: springgreen;
     margin: 0 10%;
+    position: relative;
 }
 
+nav > img{
+    width: 15%;
+    position: absolute;
+    top: 30%;
+    margin-right: 20%;
+}
+
+nav > ul{
+    list-style: none;
+    margin-left: 25%;
+    display: inline;
+}
+li{
+    display: inline;
+    padding-right: 5%;
+    line-height: 100px;
+    vertical-align: middle;
+}
+li > a{
+    text-decoration: none;
+    color: white;
+}
+#login{
+    border-radius: 30px;
+    font-size: 1rem;
+    padding: 15px;
+    background-color: white;
+    border: none;
+    margin-left: 15%;
+}
 .header_text{
-    background-color: blue;
-    width: 60%;
+    width: 70%;
     height: 50%;
     position: absolute;
     top: 50%;
@@ -50,13 +95,39 @@
 #h_title{
     text-align: center;
     font-size: 4rem;
-    line-height: 12rem;
+    line-height: 10rem;
 }
 .h_text{
     text-align: center;
     margin: 0 20%;
-    font-size: 1.1rem;
-    line-height: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+.buttons{
+    text-align: center;
+    margin-top: 20px;
+}
+#download{
+    height: 3rem;
+    border-radius: 2rem;
+    padding: 10px 30px;
+    background-color: white;
+    border: none;
+    font-size: 1rem;
+}
+#arrow{
+    font-size: 1rem;
+    font-weight: 1800;
+}
+#browser{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.74);
+    height: 3rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1rem;
+    padding: 10px 30px;
+    margin-left: 40px;
 }
 /* main */
 
