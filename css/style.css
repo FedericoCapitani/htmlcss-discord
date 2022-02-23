@@ -89,7 +89,7 @@ li > a{
     padding: 15px;
     background-color: white;
     border: none;
-    margin-left: 15%;
+    margin-left: 14%;
 }
 .header_text{
     width: 70%;
@@ -178,5 +178,18 @@ div.col2 > p {
     transform: translate(-50%, -50%);
     background-image: url("../img/stars.svg");
     background-position: center;
+}
+#download2{
+    color: white;
+    height: 3rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1rem;
+    padding: 10px 30px;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(125, 125, 214);
 }
 /* footer */
