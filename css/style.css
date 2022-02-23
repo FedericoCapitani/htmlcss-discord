@@ -19,9 +19,10 @@
 .marginR{
     margin-right: 10%;
 }
-/* .bg_wave{
-    background-image: url("../img/wave.svg");
-} */
+.bg_wave{
+    max-width: 100vw;
+    /* background-image: url("../img/wave.svg"); */
+} 
 
 .container{
     width: 70%;
@@ -47,7 +48,7 @@
 /* header */
 
 .site_header{
-    width: 100vw;
+    width: 99vw;
     height: 70vh;
     background-image: url("../img/jumbo.png");
     background-size: cover;
@@ -152,6 +153,11 @@ div.col2 > p {
     margin-top: 30px;
     font-size: 1.2rem;
 }
+.container_big{
+    width: 70%;
+    margin: 5% 10%;
+    height: 100vh;
+}
 #centre_title{
     font-size: 4rem;
     text-align: center;
@@ -163,23 +169,25 @@ div.col2 > p {
 }
 .big_item{
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 #button_title{
+    margin-top: 30px;
     position: relative;
     text-align: center;
     font-size: 1.5rem;
     width: 40%;
     height: 3rem;
-    top: 80%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-image: url("../img/stars.svg");
     background-position: center;
 }
 #download2{
+    margin-top: 40px;
     color: white;
     height: 3rem;
     border-radius: 2rem;
@@ -187,9 +195,44 @@ div.col2 > p {
     font-size: 1rem;
     padding: 10px 30px;
     position: absolute;
-    top: 110%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgb(125, 125, 214);
 }
 /* footer */
+.site_footer{
+    background-color: #23272a;
+}
+.footer_columns{
+    margin: 0px 10%;
+    height: 70vh;
+}
+.col_foot1{
+    margin-top: 20px;
+    width: 20%;
+    float: left;
+    padding-right: 50px;
+}
+#flag{
+    color: white;
+}
+#flag > img{
+    margin-top: 30px;
+    height: 1rem;
+    font-size: 12px;
+}
+.col_foot2{
+    margin-top: 20px;
+    width: 20%;
+    float: left;
+}
+.blue{
+    color: #7289da;
+}
+div.col_foot2  a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 10px;
+}
